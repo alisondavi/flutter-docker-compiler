@@ -1,0 +1,6 @@
+FROM flutter-linux
+COPY . /app
+WORKDIR /app
+RUN flutter clean
+RUN flutter pub get
+CMD flutter build linux --obfuscate --split-debug-info=/tmp
