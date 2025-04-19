@@ -1,5 +1,5 @@
 # flutter-docker-compiler
-A Docker-based compiler for building Flutter apps targeting Linux.
+A script that compiles your Flutter project for Linux using Docker.
 
 ## Objective:
 Compile a Flutter project for Linux with better compatibility across different Linux distributions, avoiding errors such as "GLIBC_2.34 not found".
